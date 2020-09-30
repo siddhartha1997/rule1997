@@ -9,7 +9,7 @@ namespace RulesMicroservice.Repository
 {
     public class RulesRepository : IRulesRepository
     {
-        Uri baseAddress = new Uri("http://20.193.128.180/api");   //Port No.
+        Uri baseAddress = new Uri("http://20.193.128.123/api");   //Port No.
         HttpClient client;
         public RulesRepository()
         {
